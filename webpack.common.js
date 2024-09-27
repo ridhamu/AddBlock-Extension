@@ -35,6 +35,10 @@ module.exports = {
           to: path.resolve('./dist'),
         },
         {
+          from: path.resolve('./src/static/rules1.json'),
+          to: path.resolve('./dist'),
+        },
+        {
           from: path.resolve('./src/static/icons'),
           to: path.resolve('./dist/icons'),
         },
